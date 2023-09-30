@@ -54,10 +54,6 @@ h2 {
     line-height: 1.5;
 }
 
-h3 {
-    font-size: 1.75rem;
-    line-height: 1.2857;
-}
 
 a {
     display: inline-block;
@@ -188,6 +184,8 @@ main {
 }
 
 .info-heading {
+    font-size: 1.75rem;
+    line-height: 1.2857;
     margin-bottom: 0.58em;
 }
 
@@ -225,6 +223,7 @@ main {
 /* Start Footer style */
 
 footer {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -403,10 +402,6 @@ footer {
         line-height: 1.1851;
     }
 
-    h3 {
-        font-size: 2rem;
-        line-height: 1.25;
-    }
 
     header {
         background-position: top 7.2575rem left -8.6419rem, top 19.6293rem right -3.005rem;
@@ -454,6 +449,8 @@ footer {
     }
 
     .info-heading {
+        font-size: 2rem;
+        line-height: 1.25;
         margin-bottom: 0.875em;
     }
 

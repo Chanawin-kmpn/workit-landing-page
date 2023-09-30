@@ -1,11 +1,11 @@
 @font-face {
     font-family: fraunces;
-    src: url(./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
+    src: url(assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf);
 }
 
 @font-face {
     font-family: manrope;
-    src: url(./assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
+    src: url(assets/fonts/manrope/Manrope-VariableFont_wght.ttf);
 }
 
 *,
@@ -280,8 +280,8 @@ footer {
 
 @media (min-width: 720px) {
     header {
-        background-image: url(/starter-code/assets/images/bg-pattern-1.svg),
-            url(/starter-code/assets/images/bg-pattern-2.svg);
+        background-image: url(./assets/images/bg-pattern-1.svg),
+            url(./assets/images/bg-pattern-2.svg);
         background-repeat: no-repeat;
         background-position: top 4.445rem left -14.2043rem, top 15.625rem right -5.855rem;
         padding: 2.25rem 5.2083% 0;
@@ -357,7 +357,7 @@ footer {
     }
 
     .founder-content::after {
-        content: url(/starter-code/assets/images/bg-pattern-3.svg);
+        content: url(./assets/images/bg-pattern-3.svg);
         position: absolute;
         bottom: -7.2rem;
         right: 0.7531rem;

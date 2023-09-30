@@ -430,7 +430,7 @@ footer {
     .info-section {
         flex-direction: row;
         justify-content: space-evenly;
-        gap: 1.425rem;
+        gap: 1.625rem;
         text-align: center;
         max-width: 69.625rem;
     }
